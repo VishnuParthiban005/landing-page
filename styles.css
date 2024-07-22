@@ -2,3 +2,64 @@
     padding: 0px;
     margin: 0px;
 }
+
+.header, .links, .introduction, .top-row {
+    /* border: 2px red solid; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+
+    background-color: #1f2937;
+    color: white;
+}
+
+.links {
+    flex: 0 1 1000px;
+
+    display: flex;
+    align-items: baseline;
+
+    padding: 16px 8px 0px 8px;
+
+}
+
+.links h2 {
+    margin-right: auto;
+}
+
+.links ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro {
+    flex: 0 1 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
+
+.hero {
+    align-self: center;
+}
+
