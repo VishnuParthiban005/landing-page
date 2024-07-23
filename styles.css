@@ -1,10 +1,6 @@
 * {
-    padding: 0px;
     margin: 0px;
-}
-
-.header, .links, .introduction, .top-row {
-    /* border: 2px red solid; */
+    padding: 0px;
 }
 
 body {
@@ -39,27 +35,55 @@ body {
 .links ul {
     display: flex;
     gap: 24px;
+
     list-style-type: none;
 }
 
 .links a {
-    text-decoration: none;
+    color: #E5E7EB;
     font-size: 18px;
-    color: #E5E7EB;
-}
-
-.intro {
-    flex: 0 1 450px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    background-color: #1f2937;
-    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .hero {
-    align-self: center;
+    flex: 0 1 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    background-color: #1f2937;
+    box-sizing: border-box;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 8px;
 }
 
+.hero .text {
+    flex: 0 1 475px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    margin-bottom: 8px;
+}
+
+.hero button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 6px;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 6px 30px;
+}
+
+.hero img {
+    flex: 0 1 475px;
+    height: 200px;
+    
+    background-color:darkgrey;
+}
