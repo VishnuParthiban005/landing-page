@@ -133,3 +133,31 @@ body {
 .info .img p {
     text-align: center;
 }
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.quote .container {
+    flex: 0 1 900px;
+}
+
+.quote p {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    padding: 20px 40px 8px 40px;
+}
+
+.quote h6 {
+    text-align: right;
+    padding-right: 50px;
+    font-size: 20px;
+
+}
