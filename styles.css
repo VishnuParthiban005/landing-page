@@ -201,3 +201,13 @@ body {
     color: white;
     padding: 6px 20px;
 }
+
+.footer {
+    background-color: #1f2937;
+}
+
+.footer p {
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
